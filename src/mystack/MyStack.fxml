@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mystack.MyStackController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="numberToPush" layoutX="28.0" layoutY="31.0" prefHeight="25.0" prefWidth="194.0" promptText="ENTER A NUMBER TO PUSH" />
+      <Button fx:id="pushBtn" layoutX="28.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#pushBtnClicked" prefHeight="25.0" prefWidth="194.0" text="Push" />
+      <Button fx:id="popBtn" layoutX="28.0" layoutY="147.0" mnemonicParsing="false" onMouseClicked="#popBtnClicked" prefHeight="25.0" prefWidth="194.0" text="Pop" />
+      <Button fx:id="isEmptyBtn" layoutX="28.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#isEmptyBtnClicked" prefHeight="25.0" prefWidth="194.0" text="IsEmpty" />
+      <Button fx:id="isFullBtn" layoutX="28.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#isFullBtnClicked" prefHeight="25.0" prefWidth="194.0" text="IsFull" />
+      <Button fx:id="emptyBtn" layoutX="28.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#emptyBtnClicked" prefHeight="25.0" prefWidth="194.0" text="Empty" />
+      <ListView fx:id="listView" layoutX="307.0" layoutY="29.0" prefHeight="274.0" prefWidth="243.0" />
+      <Button layoutX="28.0" layoutY="69.0" mnemonicParsing="false" onMouseClicked="#createBtnCliked" prefHeight="25.0" prefWidth="194.0" text="Create" />
+      <Button fx:id="topBtn" layoutX="28.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#topBtnClicked" prefHeight="25.0" prefWidth="194.0" text="top" />
+    </children>
+</AnchorPane>
