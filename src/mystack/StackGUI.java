@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  *
  * @author ulrich
  */
-public class MyStack extends Application  {
+public class StackGUI extends Application  {
     
     @Override
     public void start(Stage stage) throws Exception {
